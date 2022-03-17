@@ -40,7 +40,7 @@ ul {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     gap: 30px;
     padding-bottom: 100px;
 }
@@ -58,10 +58,10 @@ ul {
     background-color: #3882f6;
     color: white;
     max-width: 100px;
-    border-radius: 5px;
+    border-radius: 8px;
     border-color: #f9faf8;
-    border: 5px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
+    border-style: solid;
 }
 
 h1 {
@@ -88,7 +88,6 @@ h3 {
     flex: 1;
     padding-left: 100px;
     max-width: 50%;
-    flex-wrap: nowrap;
 }
 
 .heroImg {
@@ -133,11 +132,12 @@ h3 {
 
 .quote {
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     font-size: 36px;
     text-align: justify;
     max-width: 75%;
     margin: auto;
+    font-family: 'Roboto', arial;
 }
 
 .blockFour {
